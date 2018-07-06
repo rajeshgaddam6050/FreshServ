@@ -1,0 +1,6 @@
+framework module Pods_FreshServ {
+  umbrella header "Pods-FreshServ-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (4.6.0)
+  - AlamofireImage (3.3.0):
+    - Alamofire (~> 4.5)
+  - IQKeyboardManagerSwift (5.0.7)
+  - OAuthSwift (1.2.0)
+  - OAuthSwiftAlamofire (0.1.0):
+    - Alamofire
+    - OAuthSwift
+  - ObjectMapper (3.1.0)
+  - Parchment (1.0.1)
+  - PromiseKit (6.1.0):
+    - PromiseKit/CorePromise (= 6.1.0)
+    - PromiseKit/Foundation (= 6.1.0)
+    - PromiseKit/UIKit (= 6.1.0)
+  - PromiseKit/CorePromise (6.1.0)
+  - PromiseKit/Foundation (6.1.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.1.0):
+    - PromiseKit/CorePromise
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - IQKeyboardManagerSwift
+  - OAuthSwift (~> 1.2.0)
+  - OAuthSwiftAlamofire
+  - ObjectMapper
+  - Parchment
+  - PromiseKit
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
+  IQKeyboardManagerSwift: 30fb3a61de1af53a95e02b80fb54ed0a19d5ede5
+  OAuthSwift: 7fd6855b8e4d58eb5a30d156ea9bed7a8aecd1ca
+  OAuthSwiftAlamofire: 20bb998ac506f82c3bab0625fbc98a9c6fca783f
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  Parchment: 7bf8796a64a0b3d1a8efc4137726809d08b00c3d
+  PromiseKit: cf84274e6d2bec1d42e21ade146645752b0b7bed
+
+PODFILE CHECKSUM: 33733d22422c6773ea5ae20cbefa419762174e1e
+
+COCOAPODS: 1.4.0

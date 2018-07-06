@@ -7,14 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15065EB7ADCEE68C5AF410BE /* Pods_FreshServ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF6296C9F79C07E62EDB042 /* Pods_FreshServ.framework */; };
+		2C534727B60BB95578B98C2E /* Pods_FreshServUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E196869F8B262F392D9CB4 /* Pods_FreshServUITests.framework */; };
+		98FB1158516B84C768950C07 /* Pods_FreshServTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C74AA2F45A2FD536F5F79493 /* Pods_FreshServTests.framework */; };
+		E6046350203EBC33000E1CA4 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604634D203EBC33000E1CA4 /* MonthView.swift */; };
+		E6046351203EBC33000E1CA4 /* WeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604634E203EBC33000E1CA4 /* WeekdaysView.swift */; };
+		E6046352203EBC33000E1CA4 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604634F203EBC33000E1CA4 /* CalenderView.swift */; };
+		E6046354203EBC5A000E1CA4 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6046353203EBC5A000E1CA4 /* CalenderViewController.swift */; };
+		E605C2882032AD2700E28595 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E605C2872032AD2700E28595 /* MealViewController.swift */; };
+		E607EE54203AA6D50085C714 /* MealCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E607EE53203AA6D50085C714 /* MealCollectionViewCell.swift */; };
+		E607EE56203AD8AE0085C714 /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E607EE55203AD8AE0085C714 /* FAQViewController.swift */; };
+		E6095E63200F653800354B08 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6095E62200F653800354B08 /* RegisterVC.swift */; };
+		E60B4A722015A8F900AF78D4 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60B4A712015A8F900AF78D4 /* ImageCollectionViewCell.swift */; };
+		E60BA7302025970F009B02FB /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60BA72F2025970F009B02FB /* MoreViewController.swift */; };
+		E60BA7322025A570009B02FB /* SubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60BA7312025A570009B02FB /* SubscribeViewController.swift */; };
+		E61773E920451E270078C8A2 /* EditPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61773E820451E270078C8A2 /* EditPopUpViewController.swift */; };
+		E6177425204561560078C8A2 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6177424204561560078C8A2 /* MenuViewController.swift */; };
+		E6177427204561AD0078C8A2 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6177426204561AD0078C8A2 /* MenuCollectionViewCell.swift */; };
+		E6177429204568B00078C8A2 /* OrderSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6177428204568B00078C8A2 /* OrderSummaryViewController.swift */; };
+		E6202F8E200F360F00FCB7AC /* ForgotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6202F8D200F360F00FCB7AC /* ForgotVC.swift */; };
+		E626CEB6204411D80008B382 /* DelivaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626CEB5204411D80008B382 /* DelivaryViewController.swift */; };
+		E62BE6B1202C245B003CE815 /* AboutUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BE6B0202C245B003CE815 /* AboutUSViewController.swift */; };
+		E63A883020202F470022C211 /* WebServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A882F20202F470022C211 /* WebServiceHelper.swift */; };
+		E63A883820202FF40022C211 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E63A883520202FF40022C211 /* MBProgressHUD.m */; };
+		E63A883920202FF40022C211 /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = E63A883620202FF40022C211 /* README.mdown */; };
+		E63A883A20202FF40022C211 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E63A883720202FF40022C211 /* LICENSE */; };
+		E63A883C20205C9E0022C211 /* ClientHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A883B20205C9E0022C211 /* ClientHelper.swift */; };
+		E63B23B720161B92002927F1 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63B23B620161B92002927F1 /* OTPViewController.swift */; };
+		E6498F102010AA860015CF79 /* MyOrderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6498F0F2010AA860015CF79 /* MyOrderCollectionViewCell.swift */; };
+		E6529C111FFE4691003FEB2F /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6529C101FFE4691003FEB2F /* CustomCollectionViewCell.swift */; };
+		E65F6B8920131966001EAB6E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65F6B8820131966001EAB6E /* LogInViewController.swift */; };
+		E65F6B8B20132F3F001EAB6E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65F6B8A20132F3F001EAB6E /* Constant.swift */; };
+		E661AAF12031996D00C4D742 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E661AAF02031996D00C4D742 /* DLRadioButton.m */; };
+		E6ADCBFB203438E200553259 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ADCBFA203438E200553259 /* ChatViewController.swift */; };
+		E6BEB0B6203D832C00BBEB7D /* AddAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BEB0B5203D832C00BBEB7D /* AddAddressViewController.swift */; };
+		E6BEB0B8203DA7C400BBEB7D /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BEB0B7203DA7C400BBEB7D /* PaymentViewController.swift */; };
 		E6C505D61FFB4D090009AE0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C505D51FFB4D090009AE0D /* AppDelegate.swift */; };
-		E6C505D81FFB4D090009AE0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C505D71FFB4D090009AE0D /* ViewController.swift */; };
 		E6C505DB1FFB4D090009AE0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C505D91FFB4D090009AE0D /* Main.storyboard */; };
 		E6C505DE1FFB4D090009AE0D /* FreshServ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6C505DC1FFB4D090009AE0D /* FreshServ.xcdatamodeld */; };
 		E6C505E01FFB4D090009AE0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6C505DF1FFB4D090009AE0D /* Assets.xcassets */; };
 		E6C505E31FFB4D090009AE0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C505E11FFB4D090009AE0D /* LaunchScreen.storyboard */; };
 		E6C505EE1FFB4D090009AE0D /* FreshServTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C505ED1FFB4D090009AE0D /* FreshServTests.swift */; };
 		E6C505F91FFB4D090009AE0D /* FreshServUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C505F81FFB4D090009AE0D /* FreshServUITests.swift */; };
+		E6D6BA1D204A60310002A980 /* MonthAndDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D6BA1C204A60310002A980 /* MonthAndDateCollectionViewCell.swift */; };
+		E6DCAE20202B1F940095714A /* ForgotResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCAE1F202B1F940095714A /* ForgotResetViewController.swift */; };
+		E6EE05C72036E0D7009B2364 /* FSCalendar+Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EE05AA2036E0D1009B2364 /* FSCalendar+Deprecated.m */; };
+		E6EE05C82036E0D7009B2364 /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EE05AB2036E0D1009B2364 /* FSCalendarWeekdayView.m */; };
+		E6EE05C92036E0D7009B2364 /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EE05AC2036E0D1009B2364 /* FSCalendarHeaderView.m */; };
+		E6EE05CA2036E0D7009B2364 /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EE05AE2036E0D1009B2364 /* FSCalendarCollectionViewLayout.m */; };
+		E6EE05CB2036E0D7009B2364 /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EE05B12036E0D1009B2364 /* FSCalendarDelegationFactory.m */; };
+		E6EE05CC2036E0D7009B2364 /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EE05B22036E0D2009B2364 /* FSCalendarConstants.m */; };
+		E6EE05CD2036E0D7009B2364 /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EE05B32036E0D2009B2364 /* FSCalendarTransitionCoordinator.m */; };
+		E6EE05CE2036E0D7009B2364 /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EE05B42036E0D3009B2364 /* FSCalendarDelegationProxy.m */; };
+		E6EE05CF2036E0D7009B2364 /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EE05B62036E0D4009B2364 /* FSCalendarCell.m */; };
+		E6EE05D02036E0D7009B2364 /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EE05B92036E0D5009B2364 /* FSCalendarAppearance.m */; };
+		E6EE05D12036E0D7009B2364 /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EE05BA2036E0D5009B2364 /* FSCalendarCollectionView.m */; };
+		E6EE05D22036E0D7009B2364 /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EE05BB2036E0D5009B2364 /* FSCalendarStickyHeader.m */; };
+		E6EE05D32036E0D7009B2364 /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EE05BE2036E0D6009B2364 /* FSCalendarCalculator.m */; };
+		E6EE05D42036E0D7009B2364 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6EE05BF2036E0D6009B2364 /* Info.plist */; };
+		E6EE05D52036E0D7009B2364 /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EE05C02036E0D6009B2364 /* FSCalendar.m */; };
+		E6EE05D62036E0D7009B2364 /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EE05C42036E0D7009B2364 /* FSCalendarExtensions.m */; };
+		E6EE05D72036E0D7009B2364 /* FSCalendarScopeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EE05C62036E0D7009B2364 /* FSCalendarScopeHandle.m */; };
+		E6EE05D92036E111009B2364 /* FSCalendarScopeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE05D82036E111009B2364 /* FSCalendarScopeViewController.swift */; };
+		E6F0D42F2021883400A73C5D /* TimeSlotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F0D42E2021883400A73C5D /* TimeSlotViewController.swift */; };
+		E6F4060D20467AF10064A8A3 /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F4060C20467AF10064A8A3 /* SearchBarViewController.swift */; };
+		E6F4060F204682F60064A8A3 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F4060E204682F60064A8A3 /* SearchTableViewCell.swift */; };
+		E6F96623203D3D160050A2F3 /* PageMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F96622203D3D160050A2F3 /* PageMenuViewController.swift */; };
+		E6F96625203D3DDE0050A2F3 /* PageMenuBreakeFastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F96624203D3DDE0050A2F3 /* PageMenuBreakeFastViewController.swift */; };
+		E6F96627203D3E030050A2F3 /* PageMenuLunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F96626203D3E030050A2F3 /* PageMenuLunchViewController.swift */; };
+		E6F9662A203D3E520050A2F3 /* UIView+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F96629203D3E520050A2F3 /* UIView+constraints.swift */; };
+		E6F9662C203D43BA0050A2F3 /* PageMenuSnacksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F9662B203D43BA0050A2F3 /* PageMenuSnacksViewController.swift */; };
+		E6F9662E203D43D20050A2F3 /* PageMenuDinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F9662D203D43D20050A2F3 /* PageMenuDinnerViewController.swift */; };
+		E6F96630203D478D0050A2F3 /* PageMenuBreakeFastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F9662F203D478D0050A2F3 /* PageMenuBreakeFastTableViewCell.swift */; };
+		E6F96632203D52760050A2F3 /* PageMenuLunchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F96631203D52760050A2F3 /* PageMenuLunchTableViewCell.swift */; };
+		E6F96634203D54A40050A2F3 /* PageMenuSnacksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F96633203D54A40050A2F3 /* PageMenuSnacksTableViewCell.swift */; };
+		E6F96636203D56AF0050A2F3 /* PageMenuDinnerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F96635203D56AF0050A2F3 /* PageMenuDinnerTableViewCell.swift */; };
+		E6FE2A112007435C00190498 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FE2A102007435C00190498 /* HomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +103,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AB551116E2DD3B337F3E72D /* Pods-FreshServTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshServTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreshServTests/Pods-FreshServTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E29A3610BEB6A80DB0B8F8D /* Pods-FreshServUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshServUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreshServUITests/Pods-FreshServUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5A35C8A34EC75821D1A84D0A /* Pods-FreshServ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshServ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreshServ/Pods-FreshServ.debug.xcconfig"; sourceTree = "<group>"; };
+		76E196869F8B262F392D9CB4 /* Pods_FreshServUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreshServUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D3EE024104959BCF71976E /* Pods-FreshServUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshServUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreshServUITests/Pods-FreshServUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C74AA2F45A2FD536F5F79493 /* Pods_FreshServTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreshServTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3FD56DFF67909A779F74F3 /* Pods-FreshServ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshServ.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreshServ/Pods-FreshServ.release.xcconfig"; sourceTree = "<group>"; };
+		E26BFA5A3B1D6F19DE54A9AC /* Pods-FreshServTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshServTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreshServTests/Pods-FreshServTests.release.xcconfig"; sourceTree = "<group>"; };
+		E604634D203EBC33000E1CA4 /* MonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		E604634E203EBC33000E1CA4 /* WeekdaysView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekdaysView.swift; sourceTree = "<group>"; };
+		E604634F203EBC33000E1CA4 /* CalenderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
+		E6046353203EBC5A000E1CA4 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		E605C2872032AD2700E28595 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		E607EE53203AA6D50085C714 /* MealCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCollectionViewCell.swift; sourceTree = "<group>"; };
+		E607EE55203AD8AE0085C714 /* FAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
+		E6095E62200F653800354B08 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		E60B4A712015A8F900AF78D4 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		E60BA72F2025970F009B02FB /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		E60BA7312025A570009B02FB /* SubscribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeViewController.swift; sourceTree = "<group>"; };
+		E61773E820451E270078C8A2 /* EditPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPopUpViewController.swift; sourceTree = "<group>"; };
+		E6177424204561560078C8A2 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E6177426204561AD0078C8A2 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		E6177428204568B00078C8A2 /* OrderSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSummaryViewController.swift; sourceTree = "<group>"; };
+		E6202F8D200F360F00FCB7AC /* ForgotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotVC.swift; sourceTree = "<group>"; };
+		E626CEB5204411D80008B382 /* DelivaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelivaryViewController.swift; sourceTree = "<group>"; };
+		E62BE6B0202C245B003CE815 /* AboutUSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUSViewController.swift; sourceTree = "<group>"; };
+		E63A882F20202F470022C211 /* WebServiceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceHelper.swift; sourceTree = "<group>"; };
+		E63A883320202FF30022C211 /* FreshServ-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FreshServ-Bridging-Header.h"; sourceTree = "<group>"; };
+		E63A883420202FF40022C211 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		E63A883520202FF40022C211 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		E63A883620202FF40022C211 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		E63A883720202FF40022C211 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E63A883B20205C9E0022C211 /* ClientHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientHelper.swift; sourceTree = "<group>"; };
+		E63B23B620161B92002927F1 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		E6498F0F2010AA860015CF79 /* MyOrderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderCollectionViewCell.swift; sourceTree = "<group>"; };
+		E6529C101FFE4691003FEB2F /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		E65F6B8820131966001EAB6E /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		E65F6B8A20132F3F001EAB6E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		E661AAEF2031996D00C4D742 /* DLRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRadioButton.h; sourceTree = "<group>"; };
+		E661AAF02031996D00C4D742 /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRadioButton.m; sourceTree = "<group>"; };
+		E6ADCBFA203438E200553259 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		E6BEB0B5203D832C00BBEB7D /* AddAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAddressViewController.swift; sourceTree = "<group>"; };
+		E6BEB0B7203DA7C400BBEB7D /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		E6C505D21FFB4D090009AE0D /* FreshServ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreshServ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C505D51FFB4D090009AE0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E6C505D71FFB4D090009AE0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E6C505DA1FFB4D090009AE0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6C505DD1FFB4D090009AE0D /* FreshServ.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FreshServ.xcdatamodel; sourceTree = "<group>"; };
 		E6C505DF1FFB4D090009AE0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +159,57 @@
 		E6C505F41FFB4D090009AE0D /* FreshServUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreshServUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C505F81FFB4D090009AE0D /* FreshServUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshServUITests.swift; sourceTree = "<group>"; };
 		E6C505FA1FFB4D090009AE0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6D6BA1C204A60310002A980 /* MonthAndDateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthAndDateCollectionViewCell.swift; sourceTree = "<group>"; };
+		E6DCAE1F202B1F940095714A /* ForgotResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotResetViewController.swift; sourceTree = "<group>"; };
+		E6EE05A62036E0D0009B2364 /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarHeaderView.h; sourceTree = "<group>"; };
+		E6EE05A72036E0D0009B2364 /* FSCalendarCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCalculator.h; sourceTree = "<group>"; };
+		E6EE05A82036E0D0009B2364 /* FSCalendarConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarConstants.h; sourceTree = "<group>"; };
+		E6EE05A92036E0D1009B2364 /* FSCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCell.h; sourceTree = "<group>"; };
+		E6EE05AA2036E0D1009B2364 /* FSCalendar+Deprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar+Deprecated.m"; sourceTree = "<group>"; };
+		E6EE05AB2036E0D1009B2364 /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarWeekdayView.m; sourceTree = "<group>"; };
+		E6EE05AC2036E0D1009B2364 /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarHeaderView.m; sourceTree = "<group>"; };
+		E6EE05AD2036E0D1009B2364 /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		E6EE05AE2036E0D1009B2364 /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
+		E6EE05AF2036E0D1009B2364 /* FSCalendarAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarAppearance.h; sourceTree = "<group>"; };
+		E6EE05B02036E0D1009B2364 /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDelegationFactory.h; sourceTree = "<group>"; };
+		E6EE05B12036E0D1009B2364 /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
+		E6EE05B22036E0D2009B2364 /* FSCalendarConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarConstants.m; sourceTree = "<group>"; };
+		E6EE05B32036E0D2009B2364 /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
+		E6EE05B42036E0D3009B2364 /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
+		E6EE05B52036E0D3009B2364 /* FSCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendar.h; sourceTree = "<group>"; };
+		E6EE05B62036E0D4009B2364 /* FSCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCell.m; sourceTree = "<group>"; };
+		E6EE05B72036E0D4009B2364 /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
+		E6EE05B82036E0D4009B2364 /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
+		E6EE05B92036E0D5009B2364 /* FSCalendarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarAppearance.m; sourceTree = "<group>"; };
+		E6EE05BA2036E0D5009B2364 /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		E6EE05BB2036E0D5009B2364 /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		E6EE05BC2036E0D6009B2364 /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarWeekdayView.h; sourceTree = "<group>"; };
+		E6EE05BD2036E0D6009B2364 /* FSCalendarScopeHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarScopeHandle.h; sourceTree = "<group>"; };
+		E6EE05BE2036E0D6009B2364 /* FSCalendarCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCalculator.m; sourceTree = "<group>"; };
+		E6EE05BF2036E0D6009B2364 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6EE05C02036E0D6009B2364 /* FSCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendar.m; sourceTree = "<group>"; };
+		E6EE05C12036E0D6009B2364 /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
+		E6EE05C22036E0D6009B2364 /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		E6EE05C32036E0D7009B2364 /* FSCalendarExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarExtensions.h; sourceTree = "<group>"; };
+		E6EE05C42036E0D7009B2364 /* FSCalendarExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarExtensions.m; sourceTree = "<group>"; };
+		E6EE05C52036E0D7009B2364 /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		E6EE05C62036E0D7009B2364 /* FSCalendarScopeHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarScopeHandle.m; sourceTree = "<group>"; };
+		E6EE05D82036E111009B2364 /* FSCalendarScopeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSCalendarScopeViewController.swift; sourceTree = "<group>"; };
+		E6F0D42E2021883400A73C5D /* TimeSlotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlotViewController.swift; sourceTree = "<group>"; };
+		E6F4060C20467AF10064A8A3 /* SearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
+		E6F4060E204682F60064A8A3 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		E6F96622203D3D160050A2F3 /* PageMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageMenuViewController.swift; sourceTree = "<group>"; };
+		E6F96624203D3DDE0050A2F3 /* PageMenuBreakeFastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageMenuBreakeFastViewController.swift; sourceTree = "<group>"; };
+		E6F96626203D3E030050A2F3 /* PageMenuLunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageMenuLunchViewController.swift; sourceTree = "<group>"; };
+		E6F96629203D3E520050A2F3 /* UIView+constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+constraints.swift"; sourceTree = "<group>"; };
+		E6F9662B203D43BA0050A2F3 /* PageMenuSnacksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageMenuSnacksViewController.swift; sourceTree = "<group>"; };
+		E6F9662D203D43D20050A2F3 /* PageMenuDinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageMenuDinnerViewController.swift; sourceTree = "<group>"; };
+		E6F9662F203D478D0050A2F3 /* PageMenuBreakeFastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageMenuBreakeFastTableViewCell.swift; sourceTree = "<group>"; };
+		E6F96631203D52760050A2F3 /* PageMenuLunchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageMenuLunchTableViewCell.swift; sourceTree = "<group>"; };
+		E6F96633203D54A40050A2F3 /* PageMenuSnacksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageMenuSnacksTableViewCell.swift; sourceTree = "<group>"; };
+		E6F96635203D56AF0050A2F3 /* PageMenuDinnerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageMenuDinnerTableViewCell.swift; sourceTree = "<group>"; };
+		E6FE2A102007435C00190498 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		FCF6296C9F79C07E62EDB042 /* Pods_FreshServ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreshServ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +217,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15065EB7ADCEE68C5AF410BE /* Pods_FreshServ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +225,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98FB1158516B84C768950C07 /* Pods_FreshServTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +233,155 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C534727B60BB95578B98C2E /* Pods_FreshServUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05EA5F4E48640C991714650A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A35C8A34EC75821D1A84D0A /* Pods-FreshServ.debug.xcconfig */,
+				CF3FD56DFF67909A779F74F3 /* Pods-FreshServ.release.xcconfig */,
+				1AB551116E2DD3B337F3E72D /* Pods-FreshServTests.debug.xcconfig */,
+				E26BFA5A3B1D6F19DE54A9AC /* Pods-FreshServTests.release.xcconfig */,
+				97D3EE024104959BCF71976E /* Pods-FreshServUITests.debug.xcconfig */,
+				3E29A3610BEB6A80DB0B8F8D /* Pods-FreshServUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		330FCF5B92BB4698B7D4BEE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCF6296C9F79C07E62EDB042 /* Pods_FreshServ.framework */,
+				C74AA2F45A2FD536F5F79493 /* Pods_FreshServTests.framework */,
+				76E196869F8B262F392D9CB4 /* Pods_FreshServUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E604634C203EBC08000E1CA4 /* CalenderClassesCustom */ = {
+			isa = PBXGroup;
+			children = (
+				E604634F203EBC33000E1CA4 /* CalenderView.swift */,
+				E604634D203EBC33000E1CA4 /* MonthView.swift */,
+				E604634E203EBC33000E1CA4 /* WeekdaysView.swift */,
+			);
+			path = CalenderClassesCustom;
+			sourceTree = "<group>";
+		};
+		E60AAC1C2031A223000D18BF /* DLRadioButtons */ = {
+			isa = PBXGroup;
+			children = (
+				E661AAEF2031996D00C4D742 /* DLRadioButton.h */,
+				E661AAF02031996D00C4D742 /* DLRadioButton.m */,
+			);
+			path = DLRadioButtons;
+			sourceTree = "<group>";
+		};
+		E60B4A732015B00C00AF78D4 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				E6529C101FFE4691003FEB2F /* CustomCollectionViewCell.swift */,
+				E6498F0F2010AA860015CF79 /* MyOrderCollectionViewCell.swift */,
+				E60B4A712015A8F900AF78D4 /* ImageCollectionViewCell.swift */,
+				E607EE53203AA6D50085C714 /* MealCollectionViewCell.swift */,
+				E6F9662F203D478D0050A2F3 /* PageMenuBreakeFastTableViewCell.swift */,
+				E6F96631203D52760050A2F3 /* PageMenuLunchTableViewCell.swift */,
+				E6F96633203D54A40050A2F3 /* PageMenuSnacksTableViewCell.swift */,
+				E6F96635203D56AF0050A2F3 /* PageMenuDinnerTableViewCell.swift */,
+				E6177426204561AD0078C8A2 /* MenuCollectionViewCell.swift */,
+				E6F4060E204682F60064A8A3 /* SearchTableViewCell.swift */,
+				E6D6BA1C204A60310002A980 /* MonthAndDateCollectionViewCell.swift */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		E60B4A742015B03B00AF78D4 /* Login&Register */ = {
+			isa = PBXGroup;
+			children = (
+				E6202F8D200F360F00FCB7AC /* ForgotVC.swift */,
+				E6DCAE1F202B1F940095714A /* ForgotResetViewController.swift */,
+				E65F6B8820131966001EAB6E /* LogInViewController.swift */,
+				E6095E62200F653800354B08 /* RegisterVC.swift */,
+				E63B23B620161B92002927F1 /* OTPViewController.swift */,
+			);
+			path = "Login&Register";
+			sourceTree = "<group>";
+		};
+		E60BA7332025A57F009B02FB /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E6FE2A102007435C00190498 /* HomeVC.swift */,
+				E60BA7312025A570009B02FB /* SubscribeViewController.swift */,
+				E6046353203EBC5A000E1CA4 /* CalenderViewController.swift */,
+				E6EE05D82036E111009B2364 /* FSCalendarScopeViewController.swift */,
+				E6F96622203D3D160050A2F3 /* PageMenuViewController.swift */,
+				E6F96624203D3DDE0050A2F3 /* PageMenuBreakeFastViewController.swift */,
+				E6F96626203D3E030050A2F3 /* PageMenuLunchViewController.swift */,
+				E6F9662B203D43BA0050A2F3 /* PageMenuSnacksViewController.swift */,
+				E6F9662D203D43D20050A2F3 /* PageMenuDinnerViewController.swift */,
+				E6177424204561560078C8A2 /* MenuViewController.swift */,
+				E6177428204568B00078C8A2 /* OrderSummaryViewController.swift */,
+				E6F4060C20467AF10064A8A3 /* SearchBarViewController.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		E63A883120202FC30022C211 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				E604634C203EBC08000E1CA4 /* CalenderClassesCustom */,
+				E6F96628203D3E3A0050A2F3 /* PageMenuClass */,
+				E6EE05A52036E0AD009B2364 /* FSCalender */,
+				E60AAC1C2031A223000D18BF /* DLRadioButtons */,
+				E63A883220202FD20022C211 /* MBProgressHUD */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		E63A883220202FD20022C211 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E63A883720202FF40022C211 /* LICENSE */,
+				E63A883420202FF40022C211 /* MBProgressHUD.h */,
+				E63A883520202FF40022C211 /* MBProgressHUD.m */,
+				E63A883620202FF40022C211 /* README.mdown */,
+				E63A883320202FF30022C211 /* FreshServ-Bridging-Header.h */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		E63B23B52015FE22002927F1 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				E65F6B8A20132F3F001EAB6E /* Constant.swift */,
+				E63A882F20202F470022C211 /* WebServiceHelper.swift */,
+				E63A883B20205C9E0022C211 /* ClientHelper.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		E6BEB0B9203DB21400BBEB7D /* MoreVC */ = {
+			isa = PBXGroup;
+			children = (
+				E6F0D42E2021883400A73C5D /* TimeSlotViewController.swift */,
+				E60BA72F2025970F009B02FB /* MoreViewController.swift */,
+				E62BE6B0202C245B003CE815 /* AboutUSViewController.swift */,
+				E605C2872032AD2700E28595 /* MealViewController.swift */,
+				E6ADCBFA203438E200553259 /* ChatViewController.swift */,
+				E607EE55203AD8AE0085C714 /* FAQViewController.swift */,
+				E6BEB0B7203DA7C400BBEB7D /* PaymentViewController.swift */,
+				E6BEB0B5203D832C00BBEB7D /* AddAddressViewController.swift */,
+				E626CEB5204411D80008B382 /* DelivaryViewController.swift */,
+				E61773E820451E270078C8A2 /* EditPopUpViewController.swift */,
+			);
+			path = MoreVC;
+			sourceTree = "<group>";
+		};
 		E6C505C91FFB4D090009AE0D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +389,8 @@
 				E6C505EC1FFB4D090009AE0D /* FreshServTests */,
 				E6C505F71FFB4D090009AE0D /* FreshServUITests */,
 				E6C505D31FFB4D090009AE0D /* Products */,
+				05EA5F4E48640C991714650A /* Pods */,
+				330FCF5B92BB4698B7D4BEE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +408,12 @@
 			isa = PBXGroup;
 			children = (
 				E6C505D51FFB4D090009AE0D /* AppDelegate.swift */,
-				E6C505D71FFB4D090009AE0D /* ViewController.swift */,
+				E63B23B52015FE22002927F1 /* Constant */,
+				E60BA7332025A57F009B02FB /* HomeViewController */,
+				E60B4A742015B03B00AF78D4 /* Login&Register */,
+				E6BEB0B9203DB21400BBEB7D /* MoreVC */,
+				E60B4A732015B00C00AF78D4 /* CustomClasses */,
+				E63A883120202FC30022C211 /* Utilites */,
 				E6C505D91FFB4D090009AE0D /* Main.storyboard */,
 				E6C505DF1FFB4D090009AE0D /* Assets.xcassets */,
 				E6C505E11FFB4D090009AE0D /* LaunchScreen.storyboard */,
@@ -128,6 +441,54 @@
 			path = FreshServUITests;
 			sourceTree = "<group>";
 		};
+		E6EE05A52036E0AD009B2364 /* FSCalender */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE05B52036E0D3009B2364 /* FSCalendar.h */,
+				E6EE05C02036E0D6009B2364 /* FSCalendar.m */,
+				E6EE05AA2036E0D1009B2364 /* FSCalendar+Deprecated.m */,
+				E6EE05AF2036E0D1009B2364 /* FSCalendarAppearance.h */,
+				E6EE05B92036E0D5009B2364 /* FSCalendarAppearance.m */,
+				E6EE05A72036E0D0009B2364 /* FSCalendarCalculator.h */,
+				E6EE05BE2036E0D6009B2364 /* FSCalendarCalculator.m */,
+				E6EE05A92036E0D1009B2364 /* FSCalendarCell.h */,
+				E6EE05B62036E0D4009B2364 /* FSCalendarCell.m */,
+				E6EE05AD2036E0D1009B2364 /* FSCalendarCollectionView.h */,
+				E6EE05BA2036E0D5009B2364 /* FSCalendarCollectionView.m */,
+				E6EE05C12036E0D6009B2364 /* FSCalendarCollectionViewLayout.h */,
+				E6EE05AE2036E0D1009B2364 /* FSCalendarCollectionViewLayout.m */,
+				E6EE05A82036E0D0009B2364 /* FSCalendarConstants.h */,
+				E6EE05B22036E0D2009B2364 /* FSCalendarConstants.m */,
+				E6EE05B02036E0D1009B2364 /* FSCalendarDelegationFactory.h */,
+				E6EE05B12036E0D1009B2364 /* FSCalendarDelegationFactory.m */,
+				E6EE05B82036E0D4009B2364 /* FSCalendarDelegationProxy.h */,
+				E6EE05B42036E0D3009B2364 /* FSCalendarDelegationProxy.m */,
+				E6EE05C22036E0D6009B2364 /* FSCalendarDynamicHeader.h */,
+				E6EE05C32036E0D7009B2364 /* FSCalendarExtensions.h */,
+				E6EE05C42036E0D7009B2364 /* FSCalendarExtensions.m */,
+				E6EE05A62036E0D0009B2364 /* FSCalendarHeaderView.h */,
+				E6EE05AC2036E0D1009B2364 /* FSCalendarHeaderView.m */,
+				E6EE05BD2036E0D6009B2364 /* FSCalendarScopeHandle.h */,
+				E6EE05C62036E0D7009B2364 /* FSCalendarScopeHandle.m */,
+				E6EE05C52036E0D7009B2364 /* FSCalendarStickyHeader.h */,
+				E6EE05BB2036E0D5009B2364 /* FSCalendarStickyHeader.m */,
+				E6EE05B72036E0D4009B2364 /* FSCalendarTransitionCoordinator.h */,
+				E6EE05B32036E0D2009B2364 /* FSCalendarTransitionCoordinator.m */,
+				E6EE05BC2036E0D6009B2364 /* FSCalendarWeekdayView.h */,
+				E6EE05AB2036E0D1009B2364 /* FSCalendarWeekdayView.m */,
+				E6EE05BF2036E0D6009B2364 /* Info.plist */,
+			);
+			path = FSCalender;
+			sourceTree = "<group>";
+		};
+		E6F96628203D3E3A0050A2F3 /* PageMenuClass */ = {
+			isa = PBXGroup;
+			children = (
+				E6F96629203D3E520050A2F3 /* UIView+constraints.swift */,
+			);
+			path = PageMenuClass;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +496,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6C505FD1FFB4D090009AE0D /* Build configuration list for PBXNativeTarget "FreshServ" */;
 			buildPhases = (
+				5F1D0C715B163DDAB30B562E /* [CP] Check Pods Manifest.lock */,
 				E6C505CE1FFB4D090009AE0D /* Sources */,
 				E6C505CF1FFB4D090009AE0D /* Frameworks */,
 				E6C505D01FFB4D090009AE0D /* Resources */,
+				A1A6C72991AE3D92420B07B4 /* [CP] Embed Pods Frameworks */,
+				FDE95ABB2094D99FC1A0E2DC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +516,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6C506001FFB4D090009AE0D /* Build configuration list for PBXNativeTarget "FreshServTests" */;
 			buildPhases = (
+				B17B7A224AF5BE1AD6B31C1D /* [CP] Check Pods Manifest.lock */,
 				E6C505E51FFB4D090009AE0D /* Sources */,
 				E6C505E61FFB4D090009AE0D /* Frameworks */,
 				E6C505E71FFB4D090009AE0D /* Resources */,
+				F0E4893408B1658998D7C070 /* [CP] Embed Pods Frameworks */,
+				84828996C764921978141E85 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +537,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6C506031FFB4D090009AE0D /* Build configuration list for PBXNativeTarget "FreshServUITests" */;
 			buildPhases = (
+				57A5514E7823211CFDA80D00 /* [CP] Check Pods Manifest.lock */,
 				E6C505F01FFB4D090009AE0D /* Sources */,
 				E6C505F11FFB4D090009AE0D /* Frameworks */,
 				E6C505F21FFB4D090009AE0D /* Resources */,
+				83CCC75FC9A451136757D05B /* [CP] Embed Pods Frameworks */,
+				1E9F2CD32C3D18E59C0CF59B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +566,7 @@
 				TargetAttributes = {
 					E6C505D11FFB4D090009AE0D = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					E6C505E81FFB4D090009AE0D = {
@@ -236,8 +607,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6C505E31FFB4D090009AE0D /* LaunchScreen.storyboard in Resources */,
+				E63A883920202FF40022C211 /* README.mdown in Resources */,
+				E6EE05D42036E0D7009B2364 /* Info.plist in Resources */,
 				E6C505E01FFB4D090009AE0D /* Assets.xcassets in Resources */,
 				E6C505DB1FFB4D090009AE0D /* Main.storyboard in Resources */,
+				E63A883A20202FF40022C211 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +631,240 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E9F2CD32C3D18E59C0CF59B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreshServUITests/Pods-FreshServUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57A5514E7823211CFDA80D00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreshServUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F1D0C715B163DDAB30B562E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreshServ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83CCC75FC9A451136757D05B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreshServUITests/Pods-FreshServUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84828996C764921978141E85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreshServTests/Pods-FreshServTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1A6C72991AE3D92420B07B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FreshServ/Pods-FreshServ-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Parchment/Parchment.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwiftAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parchment.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreshServ/Pods-FreshServ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B17B7A224AF5BE1AD6B31C1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreshServTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0E4893408B1658998D7C070 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreshServTests/Pods-FreshServTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDE95ABB2094D99FC1A0E2DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreshServ/Pods-FreshServ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E6C505CE1FFB4D090009AE0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6C505D81FFB4D090009AE0D /* ViewController.swift in Sources */,
+				E6EE05D02036E0D7009B2364 /* FSCalendarAppearance.m in Sources */,
+				E60BA7322025A570009B02FB /* SubscribeViewController.swift in Sources */,
+				E626CEB6204411D80008B382 /* DelivaryViewController.swift in Sources */,
+				E6EE05CE2036E0D7009B2364 /* FSCalendarDelegationProxy.m in Sources */,
+				E661AAF12031996D00C4D742 /* DLRadioButton.m in Sources */,
+				E607EE54203AA6D50085C714 /* MealCollectionViewCell.swift in Sources */,
+				E6ADCBFB203438E200553259 /* ChatViewController.swift in Sources */,
+				E6EE05D32036E0D7009B2364 /* FSCalendarCalculator.m in Sources */,
+				E6FE2A112007435C00190498 /* HomeVC.swift in Sources */,
+				E6EE05D12036E0D7009B2364 /* FSCalendarCollectionView.m in Sources */,
+				E6EE05CF2036E0D7009B2364 /* FSCalendarCell.m in Sources */,
+				E6F96634203D54A40050A2F3 /* PageMenuSnacksTableViewCell.swift in Sources */,
+				E6BEB0B8203DA7C400BBEB7D /* PaymentViewController.swift in Sources */,
+				E6F4060F204682F60064A8A3 /* SearchTableViewCell.swift in Sources */,
+				E6F9662C203D43BA0050A2F3 /* PageMenuSnacksViewController.swift in Sources */,
+				E6F4060D20467AF10064A8A3 /* SearchBarViewController.swift in Sources */,
+				E6D6BA1D204A60310002A980 /* MonthAndDateCollectionViewCell.swift in Sources */,
+				E6202F8E200F360F00FCB7AC /* ForgotVC.swift in Sources */,
+				E65F6B8B20132F3F001EAB6E /* Constant.swift in Sources */,
+				E6F9662E203D43D20050A2F3 /* PageMenuDinnerViewController.swift in Sources */,
+				E6EE05C82036E0D7009B2364 /* FSCalendarWeekdayView.m in Sources */,
+				E6F0D42F2021883400A73C5D /* TimeSlotViewController.swift in Sources */,
+				E6EE05CA2036E0D7009B2364 /* FSCalendarCollectionViewLayout.m in Sources */,
+				E6DCAE20202B1F940095714A /* ForgotResetViewController.swift in Sources */,
+				E6BEB0B6203D832C00BBEB7D /* AddAddressViewController.swift in Sources */,
+				E6EE05D52036E0D7009B2364 /* FSCalendar.m in Sources */,
+				E6F9662A203D3E520050A2F3 /* UIView+constraints.swift in Sources */,
+				E6177429204568B00078C8A2 /* OrderSummaryViewController.swift in Sources */,
+				E6498F102010AA860015CF79 /* MyOrderCollectionViewCell.swift in Sources */,
+				E6EE05D22036E0D7009B2364 /* FSCalendarStickyHeader.m in Sources */,
+				E60BA7302025970F009B02FB /* MoreViewController.swift in Sources */,
+				E63A883020202F470022C211 /* WebServiceHelper.swift in Sources */,
+				E6F96623203D3D160050A2F3 /* PageMenuViewController.swift in Sources */,
+				E6F96636203D56AF0050A2F3 /* PageMenuDinnerTableViewCell.swift in Sources */,
+				E6F96625203D3DDE0050A2F3 /* PageMenuBreakeFastViewController.swift in Sources */,
+				E6177425204561560078C8A2 /* MenuViewController.swift in Sources */,
+				E6EE05D62036E0D7009B2364 /* FSCalendarExtensions.m in Sources */,
+				E61773E920451E270078C8A2 /* EditPopUpViewController.swift in Sources */,
+				E6EE05C92036E0D7009B2364 /* FSCalendarHeaderView.m in Sources */,
+				E62BE6B1202C245B003CE815 /* AboutUSViewController.swift in Sources */,
 				E6C505DE1FFB4D090009AE0D /* FreshServ.xcdatamodeld in Sources */,
+				E65F6B8920131966001EAB6E /* LogInViewController.swift in Sources */,
+				E63B23B720161B92002927F1 /* OTPViewController.swift in Sources */,
+				E60B4A722015A8F900AF78D4 /* ImageCollectionViewCell.swift in Sources */,
+				E6EE05CD2036E0D7009B2364 /* FSCalendarTransitionCoordinator.m in Sources */,
+				E6046352203EBC33000E1CA4 /* CalenderView.swift in Sources */,
+				E6046354203EBC5A000E1CA4 /* CalenderViewController.swift in Sources */,
+				E63A883820202FF40022C211 /* MBProgressHUD.m in Sources */,
+				E6EE05CC2036E0D7009B2364 /* FSCalendarConstants.m in Sources */,
+				E63A883C20205C9E0022C211 /* ClientHelper.swift in Sources */,
+				E6177427204561AD0078C8A2 /* MenuCollectionViewCell.swift in Sources */,
+				E605C2882032AD2700E28595 /* MealViewController.swift in Sources */,
 				E6C505D61FFB4D090009AE0D /* AppDelegate.swift in Sources */,
+				E6046350203EBC33000E1CA4 /* MonthView.swift in Sources */,
+				E6EE05C72036E0D7009B2364 /* FSCalendar+Deprecated.m in Sources */,
+				E6EE05D72036E0D7009B2364 /* FSCalendarScopeHandle.m in Sources */,
+				E607EE56203AD8AE0085C714 /* FAQViewController.swift in Sources */,
+				E6F96632203D52760050A2F3 /* PageMenuLunchTableViewCell.swift in Sources */,
+				E6046351203EBC33000E1CA4 /* WeekdaysView.swift in Sources */,
+				E6529C111FFE4691003FEB2F /* CustomCollectionViewCell.swift in Sources */,
+				E6095E63200F653800354B08 /* RegisterVC.swift in Sources */,
+				E6F96627203D3E030050A2F3 /* PageMenuLunchViewController.swift in Sources */,
+				E6F96630203D478D0050A2F3 /* PageMenuBreakeFastTableViewCell.swift in Sources */,
+				E6EE05D92036E111009B2364 /* FSCalendarScopeViewController.swift in Sources */,
+				E6EE05CB2036E0D7009B2364 /* FSCalendarDelegationFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,34 +1028,44 @@
 		};
 		E6C505FE1FFB4D090009AE0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A35C8A34EC75821D1A84D0A /* Pods-FreshServ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EFCQA6R4FS;
 				INFOPLIST_FILE = FreshServ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ennovex.FreshServ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Adaptiz/Downloads/FreshServ 2/FreshServ/Utilites/MBProgressHUD/FreshServ-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E6C505FF1FFB4D090009AE0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF3FD56DFF67909A779F74F3 /* Pods-FreshServ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EFCQA6R4FS;
 				INFOPLIST_FILE = FreshServ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ennovex.FreshServ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Adaptiz/Downloads/FreshServ 2/FreshServ/Utilites/MBProgressHUD/FreshServ-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		E6C506011FFB4D090009AE0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB551116E2DD3B337F3E72D /* Pods-FreshServTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +1082,7 @@
 		};
 		E6C506021FFB4D090009AE0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E26BFA5A3B1D6F19DE54A9AC /* Pods-FreshServTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +1099,7 @@
 		};
 		E6C506041FFB4D090009AE0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97D3EE024104959BCF71976E /* Pods-FreshServUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +1115,7 @@
 		};
 		E6C506051FFB4D090009AE0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E29A3610BEB6A80DB0B8F8D /* Pods-FreshServUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
